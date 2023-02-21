@@ -1,0 +1,16 @@
+andreiscutelnicu1
+repository : PA2023_A6
+type:private
+add : profesor
+Tema se prezinta fizic!
+3 parti : 1 ex in clasa(1p max),tema acasa(2p),bonus(2p).
+Quizz-uri : 0.2 per quizz , maxim 10 quizz uri
+Teste din ce se preda la curs, 5 min cu 10 intrebari aleatorii.
+Proiect final : se adauga la punctaj (30p) 
+Teme,proiecte individual
+Minimul de trecere este de 30!
+Exista si un examen final(la curs ne zice proful).
+Ex de clasa pot numai in clasa si tema merge si urmatoarea sapt.
+Platforma : quizapp.info.uaic.ro/quizz
+user:prenume.nume
+parola: nr_matricol
