@@ -4,8 +4,8 @@ import java.util.Scanner;
 //Inca din citire vom restriction ca graful ce poate fi citit sa fie ciclu   (pct 1))
 //La punctul 2 citim o matrice de adiacenta pentru un graf regular (dupa nr de vf si gradul fiecaruia - vom face verif pe muchii de asemeni.)
 public class Main {
-    static Mat M;
-    static Mat M2;
+    static Mat M1 = new Mat();
+    static Mat M2 = new Mat();
     public static void main(String[] args) {
         Scanner keyboard =new Scanner(System.in);
         System.out.println("Please enter the x and y for a degree");
@@ -17,12 +17,12 @@ public class Main {
         //Punctul 1:
         ReadP1(n);
         //Aceasta este matricea de inceput:
-        Afisare(M,n);
+        Afisare(M1,n);
         System.out.println("Va rog cititi k putere la care doriti sa ridicati amtricea");
         int k = keyboard.nextInt();
-         Proprities.pwr(M,k,n);
+         Proprities.pwr(M1,k,n);
         //Aceasta este matricea finala M^n:
-        Afisare(M,n);
+        Afisare(M1,n);
         //Punctul 2:
         ReadP2(n,degree);
         //Aceasta este ,matricea finala:
@@ -34,7 +34,7 @@ public class Main {
         for(int i=0;i<n;i++)
         {
             for (int j = 0; j < n; j++) {
-                System.out.print(M.M[i][j]);
+                System.out.print(M.Matr[i][j]);
                 System.out.print(" ");
             }
             System.out.println("");
@@ -56,8 +56,8 @@ public class Main {
 
             if(i>=1)
             {
-                M.M[v[i-1]-1][v[i]-1] = 1;
-                M.M[v[i]-1][v[i-1]-1] = 1;
+                M1.Matr[v[i-1]-1][v[i]-1] = 1;
+                M1.Matr[v[i]-1][v[i-1]-1] = 1;
             }
         }
 
@@ -79,7 +79,8 @@ public class Main {
                 int x=keyboard.nextInt();   ///DE GANDIT LA CITIREA ASTA
                //Scanner keyboard =new Scanner(System.in);
                 int y=keyboard.nextInt();
-                M2.M[x][y]=1;
+                M2.Matr[x][y]=1;
+                M2.Matr[y][x]=1;
             }
         }
     }
@@ -88,29 +89,29 @@ public class Main {
 }
 
 class Mat{
-    static int M[][] = new int [100][100];
+     int Matr[][] = new int [100][100];
 }
 
 class Proprities{
    //Aici facem 2 functii pentru inmultirea matricilor(o functie se ocupa de calcularea lui A*A iar alta va face A^n in timp log)
      public static Mat Prod(Mat a,Mat b,int dim){ //////////PROBLEMA
          Mat Ma = new Mat();
-        /* for(int i=0;i<dim;i++)
+         for(int i=0;i<dim;i++)
          {
              for (int j = 0; j < dim; j++)
-                 Ma.M[i][j]=0;
+                 Ma.Matr[i][j]=0;
          }
-        */
+
          for(int i=0;i<dim ;i++)
              for(int j=0;j<dim;j++) {
                  for (int k = 0; k < dim; k++)
-                     Ma.M[i][j] = Ma.M[i][j] + a.M[i][k] * b.M[k][j];  //sa modific indicii cu dimensiuni desi matricea oricum e matratica
+                     Ma.Matr[i][j] = Ma.Matr[i][j] + a.Matr[i][k] * b.Matr[k][j];  //sa modific indicii cu dimensiuni desi matricea oricum e matratica
              }
 
          for(int i=0;i<dim;i++)
          {
              for (int j = 0; j < dim; j++) {
-                 System.out.print(Ma.M[i][j]);
+                 System.out.print(Ma.Matr[i][j]);
                  System.out.print(" ");
              }
              System.out.println("");
@@ -126,11 +127,11 @@ class Proprities{
          for(int i=0;i<dim;i++)
              for(int j=0;j<dim;j++)
                 if(i == j) {
-                    nullMat.M[i][j] = 1;
+                    nullMat.Matr[i][j] = 1;
                 }
                   else
                 {
-                   nullMat.M[i][j]=0;
+                   nullMat.Matr[i][j]=0;
                 }
 
          if(n==0)
