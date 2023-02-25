@@ -15,32 +15,32 @@ public class Main {
         int degree=keyboard.nextInt();
 
         //Punctul 1:
-        ReadP1(n);
+        ReadP1(n,M1);
         //Aceasta este matricea de inceput:
         Afisare(M1,n);
         System.out.println("Va rog cititi k putere la care doriti sa ridicati amtricea");
         int k = keyboard.nextInt();
          Proprities.pwr(M1,k,n);
         //Aceasta este matricea finala M^n:
-        Afisare(M1,n);
+        //Afisare(M1,n);
         //Punctul 2:
-        ReadP2(n,degree);
+        ReadP2(M2,n,degree);
         //Aceasta este ,matricea finala:
         Afisare(M2,n);
     }
 
-    public static void Afisare(Mat M,int n)
+    public static void Afisare(Mat Mataf,int n)
     {
         for(int i=0;i<n;i++)
         {
             for (int j = 0; j < n; j++) {
-                System.out.print(M.Matr[i][j]);
+                System.out.print(Mataf.Matr[i][j]);
                 System.out.print(" ");
             }
             System.out.println("");
         }
     }
-    public static void ReadP1(int n){
+    public static void ReadP1(int n,Mat Ma1){
 
         int v[] = new int[40];
         Scanner keyboard =new Scanner(System.in);
@@ -56,19 +56,24 @@ public class Main {
 
             if(i>=1)
             {
-                M1.Matr[v[i-1]-1][v[i]-1] = 1;
-                M1.Matr[v[i]-1][v[i-1]-1] = 1;
+                Ma1.Matr[v[i-1]-1][v[i]-1] = 1;
+                Ma1.Matr[v[i]-1][v[i-1]-1] = 1;
             }
         }
 
     }
 
-    public static void ReadP2(int n,int degree){
+    public static void ReadP2(Mat Ma2,int n,int degree){
        // aici  pentru fiecare varf cam trebuie sa stim muchiile (clar gradul fiecarui vf este degree deci dupa ce citesc un vf ,  maxim 3 muchii).
         //Default consider ca vf sunt alese in ordine de la 1 la n.
+
+        for(int i=0;i<n;i++)
+            for(int j=0;j<n;j++)
+                Ma2.Matr[i][j]=0;
+
         Scanner keyboard =new Scanner(System.in);
         System.out.println("Please enter the x and y vertexes for a edge");
-        for(int i=0;i<n;i++)
+        for(int i=0;i<n;i++)   //Lista de adiacenta a lui i -> asa citesc
         {
             //Linia 0 = vf 1 -> aleg degree muchii adiacente
             for(int j=0;j<degree;j++)
@@ -76,13 +81,13 @@ public class Main {
 
                 //Citesc n,m; din main
                 //citim fiecare vf
-                int x=keyboard.nextInt();   ///DE GANDIT LA CITIREA ASTA
-               //Scanner keyboard =new Scanner(System.in);
+                int x=keyboard.nextInt();
                 int y=keyboard.nextInt();
-                M2.Matr[x][y]=1;
-                M2.Matr[y][x]=1;
+                Ma2.Matr[x-1][y-1]=1;
+                Ma2.Matr[y-1][x-1]=1;
             }
         }
+        Afisare(Ma2,n);
     }
 
 
@@ -120,10 +125,10 @@ class Proprities{
          return Ma;
      }
 
+     static Mat nullMat = new Mat();
     public static Mat pwr(Mat Matrix,int n,int dim)
     {
          Matrix=new Mat();
-         Mat nullMat = new Mat();
          for(int i=0;i<dim;i++)
              for(int j=0;j<dim;j++)
                 if(i == j) {
