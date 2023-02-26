@@ -5,6 +5,12 @@ import java.util.Scanner;
 //The best Route problem -> Clases creating
 public class Main {
     public static void main(String[] args) {
+        Print p = new Print();
+        Coordonates coordonates=new Coordonates(12,3.6);
+        Location loc = new Location("Bucuresti", Location.locationTypes.GasStation,coordonates);
+        Road roads =new Road(132,2500, Road.roadsType.Express);
+        p.PrintLocation(loc);
+        p.PrintRoads(roads);
         System.out.println("Hello world!");
     }
 }
@@ -32,6 +38,10 @@ class Print{
 class Coordonates {
     Float x;
     Float y;
+    public Coordonates(Float x1,Float y1){
+        x=x1;
+        y=y1;
+    }
 
 };
 
