@@ -22,11 +22,12 @@ public class Main {
         int k = keyboard.nextInt();
          Proprities.pwr(M1,k,n);
         //Aceasta este matricea finala M^n:
-        //Afisare(M1,n);
+         Afisare(M1,n);
         //Punctul 2:
         ReadP2(M2,n,degree);
         //Aceasta este ,matricea finala:
         Afisare(M2,n);
+
     }
 
     public static void Afisare(Mat Mataf,int n)
@@ -112,7 +113,6 @@ class Proprities{
                  for (int k = 0; k < dim; k++)
                      Ma.Matr[i][j] = Ma.Matr[i][j] + a.Matr[i][k] * b.Matr[k][j];  //sa modific indicii cu dimensiuni desi matricea oricum e matratica
              }
-
          for(int i=0;i<dim;i++)
          {
              for (int j = 0; j < dim; j++) {
@@ -128,7 +128,7 @@ class Proprities{
      static Mat nullMat = new Mat();
     public static Mat pwr(Mat Matrix,int n,int dim)
     {
-         Matrix=new Mat();
+         nullMat=new Mat();
          for(int i=0;i<dim;i++)
              for(int j=0;j<dim;j++)
                 if(i == j) {
@@ -154,4 +154,5 @@ class Proprities{
            }
          }
     }
+
 }
