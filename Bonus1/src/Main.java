@@ -20,7 +20,7 @@ public class Main {
         Afisare(M1,n);
         System.out.println("Va rog cititi k putere la care doriti sa ridicati amtricea");
         int k = keyboard.nextInt();
-         Proprities.pwr(M1,k,n);
+        M1 = Proprities.pwr(M1,k,n);
         //Aceasta este matricea finala M^n:
          Afisare(M1,n);
         //Punctul 2:
@@ -113,15 +113,6 @@ class Proprities{
                  for (int k = 0; k < dim; k++)
                      Ma.Matr[i][j] = Ma.Matr[i][j] + a.Matr[i][k] * b.Matr[k][j];  //sa modific indicii cu dimensiuni desi matricea oricum e matratica
              }
-         for(int i=0;i<dim;i++)
-         {
-             for (int j = 0; j < dim; j++) {
-                 System.out.print(Ma.Matr[i][j]);
-                 System.out.print(" ");
-             }
-             System.out.println("");
-         }
-
          return Ma;
      }
 
