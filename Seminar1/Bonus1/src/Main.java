@@ -88,7 +88,6 @@ public class Main {
                 Ma2.Matr[y-1][x-1]=1;
             }
         }
-        Afisare(Ma2,n);
     }
 
 

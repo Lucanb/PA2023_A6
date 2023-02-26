@@ -6,10 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5da51d-4716-42a7-8c6c-6c39fbc3efc9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mat.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proprities.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proprities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory 1/Laborator1/Laborator1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory 1/Laborator1/out/production/Laborator1/Compulsory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory 1/Laborator1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/Homework1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/out/production/Homework1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/out/production/Homework1/TransformareMatrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Homework1/src/TransformareMatrice.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +70,9 @@
       <workItem from="1677308928420" duration="1991000" />
       <workItem from="1677416011016" duration="631000" />
       <workItem from="1677416668085" duration="1534000" />
-      <workItem from="1677431875280" duration="182000" />
+      <workItem from="1677431875280" duration="207000" />
+      <workItem from="1677436321261" duration="59000" />
+      <workItem from="1677436436193" duration="30000" />
     </task>
     <servers />
   </component>

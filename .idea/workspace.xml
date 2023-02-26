@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d657198-f3e2-400c-9adf-dbe1f122f1d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework/Homework1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/Bonus1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/out/production/Bonus1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/out/production/Bonus1/Mat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/out/production/Bonus1/Proprities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/src/Mat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bonus1/src/Proprities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compulsory 1/Laborator1/Laborator1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compulsory 1/Laborator1/out/production/Laborator1/Compulsory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compulsory 1/Laborator1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/Homework1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/out/production/Homework1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/out/production/Homework1/TransformareMatrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Homework1/src/TransformareMatrice.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +69,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Personal/School/Anul II (2022-2023)/Sem II/Programare Avansata/Seminar/PA2023_A6/Homework/Homework1.js",
+    "last_opened_file_path": "E:/Personal/School/Anul II (2022-2023)/Sem II/Programare Avansata/Seminar/PA2023_A6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +101,7 @@
       <workItem from="1676991235125" duration="598000" />
       <workItem from="1676997261390" duration="134000" />
       <workItem from="1677145264373" duration="644000" />
+      <workItem from="1677436513431" duration="146000" />
     </task>
     <servers />
   </component>
