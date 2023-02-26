@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d657198-f3e2-400c-9adf-dbe1f122f1d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/Compulsory2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/Compulsory2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,7 @@
       <workItem from="1676991235125" duration="598000" />
       <workItem from="1676997261390" duration="134000" />
       <workItem from="1677145264373" duration="644000" />
-      <workItem from="1677436513431" duration="1749000" />
+      <workItem from="1677436513431" duration="1830000" />
     </task>
     <servers />
   </component>
