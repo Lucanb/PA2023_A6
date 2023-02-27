@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="445176ee-8a81-425a-be0a-cf1a1ec0482d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="wipqu27l" />
   </component>
   <component name="ProjectId" id="2MI2ZXqMhqNI3QvauExK8Ogiapg" />
   <component name="ProjectViewState">
@@ -26,6 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Personal/School/Anul II (2022-2023)/Sem II/Programare Avansata/Seminar/PA2023_A6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -38,7 +42,12 @@
       <option name="presentableId" value="Default" />
       <updated>1677440833838</updated>
       <workItem from="1677440835263" duration="5000" />
+      <workItem from="1677451799430" duration="72000" />
+      <workItem from="1677451948585" duration="104000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
