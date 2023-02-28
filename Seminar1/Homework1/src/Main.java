@@ -55,6 +55,15 @@ class TransformareMatrice {
             }
             System.out.println();
         }
+
+        System.out.println("Lines:");
+        String S = new String("");
+        for(int i=1;i<n;i++)
+            for(int j=1;j<n;j++)
+            {
+                S+=Integer.toString(M[i][j]);
+            }
+        System.out.println(S);
     }
 
     public static void AfisareTimp() {

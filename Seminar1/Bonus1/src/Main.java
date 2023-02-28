@@ -21,10 +21,13 @@ public class Main {
         System.out.println("Va rog cititi k putere la care doriti sa ridicati amtricea");
         int k = keyboard.nextInt();
         M1 = Proprities.pwr(M1,k,n);
+        ///La puterea N Semnifica faptul ca de la i la j am un nr a[i][j] de drumuri de lungime maxima n.
         //Aceasta este matricea finala M^n:
          Afisare(M1,n);
+         System.out.println("");
         //Punctul 2:
-        ReadP2(M2,n,degree);
+        kRegular(M2,n,degree);
+        //ReadP2(M2,n,degree); //Aici am facut o greseala(nu am vazut slide-ul).
         //Aceasta este ,matricea finala:
         Afisare(M2,n);
 
@@ -90,13 +93,33 @@ public class Main {
         }
     }
 
+    public static void kRegular(Mat Ma2,int n,int degree)
+    {
+        if(degree %2 == 0) {
+            for (int i = 0; i < n; i++)
+                for(int j=1;j<=degree;j++) {
+                    Ma2.Matr[i][(i+j)%n] = 1;
+                    Ma2.Matr[(i+j)%n][i] = 1;
+                }
+        }
+             else
+        {
+            for (int i = 0; i < n; i++) {
+                for (int j = 1; j <= degree; j++) {
+                    Ma2.Matr[i][(i + j) % n] = 1;
+                    Ma2.Matr[j][(i + j) % n] = 1;
+                }
+                Ma2.Matr[i][n-i+1]=1;
+                Ma2.Matr[n-i+1][i]=1;
+            }
+        }
+    }
 
 }
 
 class Mat{
      int Matr[][] = new int [100][100];
 }
-
 class Proprities{
    //Aici facem 2 functii pentru inmultirea matricilor(o functie se ocupa de calcularea lui A*A iar alta va face A^n in timp log)
      public static Mat Prod(Mat a,Mat b,int dim){ //////////PROBLEMA
