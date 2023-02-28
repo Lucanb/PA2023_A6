@@ -1,3 +1,5 @@
+import javax.print.attribute.standard.PrinterLocation;
+
 public class Print {
         Print() {
         }
@@ -15,4 +17,13 @@ public class Print {
             System.out.println(var1.getSpeedLimit());
             System.out.println(var1.getType());
         }
+        public void PrintLocation(String a)
+        {
+            System.out.println(a);
+        }
+
+         public void PrintRoads(String a)
+         {
+           System.out.println(a);
+         }
 }

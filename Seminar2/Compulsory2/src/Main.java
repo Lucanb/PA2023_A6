@@ -10,10 +10,15 @@ public class Main {
         StringBuilder stringBuilder = new StringBuilder("Bucuresti");
         Location loc = new Location(stringBuilder, Location.locationTypes.GasStation,coordonates);
         Road roads =new Road(132f,2500f, Road.roadsType.Express);
-        p.PrintLocation(loc);
-        p.PrintRoads(roads);
-      //  System.out.println(loc);
-      //  System.out.println(roads);
+
+       // p.PrintLocation(loc);
+       // p.PrintRoads(roads);
+
+       //   p.PrintLocation(loc.toString());
+       //   p.PrintRoads(roads.toString());
+        
+          System.out.println(loc.toString());
+          System.out.println(roads.toString());
     }
 }
 

@@ -31,6 +31,29 @@ public class Road {
     public roadsType getType() {
         return type;
     }
+/*
+    public String toString()
+    {
+        String myString = new String("");
+
+        myString+= type;
+        myString+= "\n";
+        myString+= length;
+        myString+="\n";
+        myString+=speedLimit;
+
+        return myString;
+    }
+*/
+
+    @Override
+    public String toString() {
+        return "Road{" +
+                "type=" + type +
+                ", length=" + length +
+                ", speedLimit=" + speedLimit +
+                '}';
+    }
 
     public Road(Float speedLimit1, Float length1, roadsType type1) {
         setLength(length1);
