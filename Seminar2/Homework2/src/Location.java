@@ -1,21 +1,16 @@
 
 public class Location {
-
-    public enum locationTypes {
-        City, Airport, GasStation
-    }
-
     ;
     private StringBuilder Name;
-    private locationTypes type;
+    private String type;
     private Coordonates coord;
 
     public void setName(StringBuilder Name1) {
         Name = Name1;
     }
 
-    public void setType(locationTypes type1) {
-        type = type1;
+    public void setType(LocationType type1) {
+        type = type1.getType();
     }
 
     public void setCoord(Coordonates coord1) {
@@ -26,7 +21,7 @@ public class Location {
         return Name;
     }
 
-    public locationTypes getType() {
+    public String getType() {
         return type;
     }
 
@@ -59,7 +54,7 @@ public class Location {
                 '}';
     }
 
-    public Location(StringBuilder Name1, locationTypes types1, Coordonates coord1) {
+    public Location(StringBuilder Name1, LocationType types1, Coordonates coord1) {
         setCoord(coord1);
         setType(types1);
         setName(Name1);

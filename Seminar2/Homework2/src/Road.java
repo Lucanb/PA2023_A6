@@ -1,15 +1,10 @@
 public class Road {
-    public enum roadsType {
-        HighWay, Express, Country
-    }
-
-    ;
-    private roadsType type;
+    private String type;
     private Float length;
     private Float speedLimit;
 
-    public void setType(roadsType type1) {
-        type = type1;
+    public void setType(RoadType type1) {
+        type = type1.getType();
     }
 
     public void setLength(Float length1) {
@@ -28,23 +23,9 @@ public class Road {
         return speedLimit;
     }
 
-    public roadsType getType() {
+    public String getType() {
         return type;
     }
-/*
-    public String toString()
-    {
-        String myString = new String("");
-
-        myString+= type;
-        myString+= "\n";
-        myString+= length;
-        myString+="\n";
-        myString+=speedLimit;
-
-        return myString;
-    }
-*/
 
     @Override
     public String toString() {
@@ -55,7 +36,7 @@ public class Road {
                 '}';
     }
 
-    public Road(Float speedLimit1, Float length1, roadsType type1) {
+    public Road(Float speedLimit1, Float length1, RoadType type1) {
         setLength(length1);
         setType(type1);
         setSpeedLimit(speedLimit1);
