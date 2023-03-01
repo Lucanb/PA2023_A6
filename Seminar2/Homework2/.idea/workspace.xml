@@ -5,39 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445176ee-8a81-425a-be0a-cf1a1ec0482d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Compulsory2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Coordonates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Location$locationTypes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Road$roadsType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/Road.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Compulsory2/out/production/Compulsory2/out/production/Compulsory2/Compulsory2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Coordonates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Road.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="wipqu27l" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MI2ZXqMhqNI3QvauExK8Ogiapg" />
   <component name="ProjectViewState">
@@ -50,6 +43,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Personal/School/Anul II (2022-2023)/Sem II/Programare Avansata/Seminar/PA2023_A6/Seminar2/Compulsory2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,6 +77,7 @@
       <workItem from="1677451948585" duration="104000" />
       <workItem from="1677591516965" duration="77000" />
       <workItem from="1677616477968" duration="640000" />
+      <workItem from="1677704782519" duration="466000" />
     </task>
     <servers />
   </component>
