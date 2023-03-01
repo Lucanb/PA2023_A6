@@ -16,7 +16,7 @@ public class Main {
 
        //   p.PrintLocation(loc.toString());
        //   p.PrintRoads(roads.toString());
-        
+
           System.out.println(loc.toString());
           System.out.println(roads.toString());
     }

@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdc89a13-0c0f-4fd4-8366-94088f83d464" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Homework2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Compulsory2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Coordonates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Location$locationTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Location.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Print.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Road$roadsType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/Road.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/out/production/Compulsory2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/out/production/Compulsory2/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/out/production/Compulsory2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/out/production/Compulsory2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/out/production/Compulsory2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compulsory2/out/production/Compulsory2/Compulsory2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Personal/School/Anul II (2022-2023)/Sem II/Programare Avansata/Seminar/PA2023_A6/Seminar2/Compulsory2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +65,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Compulsory2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677437158962</updated>
       <workItem from="1677437160166" duration="3647000" />
+      <workItem from="1677616526468" duration="678000" />
     </task>
     <servers />
   </component>
