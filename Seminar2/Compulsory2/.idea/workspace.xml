@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bdc89a13-0c0f-4fd4-8366-94088f83d464" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework2/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/src/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework2/src/LocationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/src/LocationType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework2/src/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/src/Road.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework2/src/RoadType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/src/RoadType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <updated>1677437158962</updated>
       <workItem from="1677437160166" duration="3647000" />
       <workItem from="1677616526468" duration="678000" />
-      <workItem from="1677704982444" duration="883000" />
+      <workItem from="1677704982444" duration="1013000" />
     </task>
     <servers />
   </component>
