@@ -2,11 +2,11 @@ import java.util.Objects;
 
 public class Location {
     ;
-    private StringBuilder Name;
+    private String Name;
     private Object type;
     private Coordonates coord;
 
-    public void setName(StringBuilder Name1) {
+    public void setName(String Name1) {
         Name = Name1;
     }
 
@@ -18,7 +18,7 @@ public class Location {
         coord = coord1;
     }
 
-    public StringBuilder getName() {
+    public String getName() {
         return Name;
     }
 
@@ -43,7 +43,7 @@ public class Location {
         return super.equals(obj);
     }
 
-    public Location(StringBuilder Name1, Object types1, Coordonates coord1) {
+    public Location(String Name1, Object types1, Coordonates coord1) {
         setCoord(coord1);
         setType(types1);
         setName(Name1);

@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445176ee-8a81-425a-be0a-cf1a1ec0482d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AirPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Express.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HighWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory2/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory2/src/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework2/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework2/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework2/LocationType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework2/Road.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework2/Road.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework2/RoadType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coordonates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coordonates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LocationType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Road.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoadType.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +88,7 @@
       <workItem from="1677616477968" duration="640000" />
       <workItem from="1677704782519" duration="1985000" />
       <workItem from="1677847433681" duration="9134000" />
-      <workItem from="1677868597668" duration="2087000" />
+      <workItem from="1677868597668" duration="4076000" />
     </task>
     <servers />
   </component>

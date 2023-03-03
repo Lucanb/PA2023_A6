@@ -77,7 +77,7 @@ public class Road {
         setLength(length1);
         setType(type1);
         setSpeedLimit(speedLimit1);
-        Coordonates coord0=new Coordonates(0f,0f);
+        Coordonates coord0=new Coordonates(0d,0d);
         setCoordonates(coord0,coord0);
     }
 

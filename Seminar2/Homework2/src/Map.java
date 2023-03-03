@@ -1,4 +1,5 @@
 import java.security.KeyPair;
+import java.util.List;
 import java.util.Vector;
 
 public class Map {
@@ -6,18 +7,18 @@ public class Map {
     int roadsNumber;
 
     //Vect de Roads-uri ,vect de Locations; (pt verificarea lor) ~ a list
-     Vector<Road> roadVector;
-     Vector<Location> locationVector;
+     Vector<Road> roadVector = new Vector<>(500);
+     Vector<Location> locationVector = new Vector<>(500);
     //matrice de coorodonate cu 1 sau 0 cost(daca am drum)
 
     //Vect cu id intre orase (il iau de la 0 la n); si pe matrice la fel voi avea exact dependenta de id-uri.
-     int vectId[];
-    double costMatrix[][];
+    int vectId[] = new int[500];
+    double costMatrix[][] = new double[500][500];
 
 
     //adaug operatori de supra incarcare(addRoad,addCity)
     public void addRoad(Road road){
-       for(int i=0;i<roadVector.size();i++)
+       for(int i=0;i<roadsNumber;i++)
            if(road.equals(roadVector.get(i)))
            {
               System.out.println("Error,this road exists!");
@@ -51,7 +52,7 @@ public class Map {
            }
     }
     public void addCity(Location location){
-        for(int i=0;i<locationVector.size();i++)
+        for(int i=0;i<numberCities;i++)
             if(location.equals(locationVector.get(i)))
             {
                 System.out.println("Error,this road exists!");
@@ -78,10 +79,5 @@ public class Map {
     public Map(){
           roadsNumber=0;
           numberCities=0;
-          Vector<Road> roadVector = new Vector<Road>();
-          Vector<Location> locationVector = new Vector<Location>();
-          int vectId[] = new int[500];
-          double costMatrix[][]=new double[500][500];
-
     }
 }
