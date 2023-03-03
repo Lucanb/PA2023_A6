@@ -23,11 +23,14 @@ public class Main {
         map.addCity(loc1);
         map.addCity(loc2);
         map.addRoad(road);
-        for(int i=0;i<=1;i++)
+       // System.out.println(map.locationVector.get(map.numberCities).toString());
+        /*  for(int i=0;i<=1;i++)
             for(int j=0;j<=1;j++)
             {
                 System.out.println(map.costMatrix[i][j]);
             }
+
+       */
     }
 }
 
