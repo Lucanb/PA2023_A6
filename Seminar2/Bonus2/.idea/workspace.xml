@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5a43b575-f64c-45d6-ba6e-bc075b0f3cfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework2/out/production/Homework2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/out/production/Homework2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework2/out/production/Homework2/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/out/production/Homework2/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework2/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework2/src/Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Personal/School/Anul II (2022-2023)/Sem II/Programare Avansata/Seminar/PA2023_A6/Seminar2/Bonus2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -72,6 +81,7 @@
       <updated>1677873274333</updated>
       <workItem from="1677873275306" duration="183000" />
       <workItem from="1677873888785" duration="43000" />
+      <workItem from="1677925076351" duration="609000" />
     </task>
     <servers />
   </component>
