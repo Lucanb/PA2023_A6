@@ -13,7 +13,7 @@ public class Map {
 
     //Vect cu id intre orase (il iau de la 0 la n); si pe matrice la fel voi avea exact dependenta de id-uri.
     int vectId[] = new int[500];
-    double costMatrix[][] = new double[500][500];
+    int costMatrix[][] = new int[500][500];
 
 
     //adaug operatori de supra incarcare(addRoad,addCity)

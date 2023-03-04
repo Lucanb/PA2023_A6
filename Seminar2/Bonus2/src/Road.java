@@ -5,7 +5,7 @@ import static java.lang.Math.sqrt;
 
 public class Road {
     private Object type;
-    private double length;
+    private int length;
     private double speedLimit;
 
     Coordonates firstCity;
@@ -14,7 +14,7 @@ public class Road {
     public void setType(Object type1) {
        type=type1;
     }
-    public void setLength(double length1) {
+    public void setLength(int length1) {
         length = length1;
     }
 
@@ -22,7 +22,7 @@ public class Road {
         speedLimit = speedLimit1;
     }
 
-    public double getLength() {
+    public int getLength() {
         return length;
     }
 
@@ -73,7 +73,7 @@ public class Road {
       return t;
     }
 
-    public Road(double speedLimit1, double length1, Object type1) {
+    public Road(double speedLimit1, int length1, Object type1) {
         setLength(length1);
         setType(type1);
         setSpeedLimit(speedLimit1);
@@ -81,7 +81,7 @@ public class Road {
         setCoordonates(coord0,coord0);
     }
 
-    public Road(Coordonates firstCity1,Coordonates secondCity1,double speedLimit1, double length1, Object type1){
+    public Road(Coordonates firstCity1,Coordonates secondCity1,double speedLimit1, int length1, Object type1){
         if(length1 >= distance(firstCity1,secondCity1)) {
             setCoordonates(firstCity1, secondCity1);
             setLength(length1);
