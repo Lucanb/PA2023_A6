@@ -1,3 +1,5 @@
+import java.security.Key;
+import java.util.Scanner;
 import javax.print.attribute.standard.PrinterLocation;
 import java.util.Objects;
 import java.util.Scanner;
@@ -46,8 +48,10 @@ public class Main {
         //Now the bonus Part:
         Dijkstra D = new Dijkstra();
         //Alegeti un varf:
-
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Please enter an city number");
+        int x = keyboard.nextInt();
         //Alg Dijkstra pt orasul 1:
-        D.algo_dijkstra(map.costMatrix,0);
+        D.algo_dijkstra(map.costMatrix, x);
     }
 }
