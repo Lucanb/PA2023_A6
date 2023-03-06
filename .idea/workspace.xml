@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d657198-f3e2-400c-9adf-dbe1f122f1d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Compulsory2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Coordonates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Location$locationTypes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Road$roadsType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/Road.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/out/production/Compulsory2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/out/production/Compulsory2/out/production/Compulsory2/Compulsory2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/Homework2/src/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/Compulsory2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/Compulsory2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/Bonus2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/Bonus2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seminar2/Homework2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/Homework2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +88,7 @@
       <workItem from="1677530956223" duration="746000" />
       <workItem from="1677585707415" duration="142000" />
       <workItem from="1677703867390" duration="755000" />
+      <workItem from="1678121202192" duration="94000" />
     </task>
     <servers />
   </component>
