@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Person implements Node, Comparable<Person>{
+    public int code;
     private String name;
     private Map<Node,String> relationships= new HashMap<Node,String>();
 
@@ -28,4 +29,5 @@ public class Person implements Node, Comparable<Person>{
         return this.name.compareTo(other.name);
         //what if the name is null?
     }
+
 }
