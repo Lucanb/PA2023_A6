@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af3c7b9-b785-428e-a130-65267e280022" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/Compulsory4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Network$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Network$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Network.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Programmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Programmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +54,7 @@
       <workItem from="1678781514242" duration="1401000" />
       <workItem from="1678784313140" duration="415000" />
       <workItem from="1678793208320" duration="138000" />
-      <workItem from="1678794501855" duration="1626000" />
+      <workItem from="1678794501855" duration="1735000" />
     </task>
     <servers />
   </component>
