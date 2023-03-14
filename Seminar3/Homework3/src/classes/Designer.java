@@ -6,11 +6,11 @@ package classes;
 import java.util.Date;
 
 public class Designer extends Person{
-    String favouriteColor;
+    String Color;
 
 
-    public Designer(String name, Date birthday, String favouriteColor) {
+    public Designer(String name, Date birthday, String Color) {
         super(name, birthday);
-        this.favouriteColor = favouriteColor;
+        this.Color = Color;
     }
 }

@@ -11,38 +11,29 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Programmer person1 = new Programmer(
-                "John",
-                new GregorianCalendar(1988, Calendar.JANUARY, 30).getTime(),
-                "Java"
-        );
-        Designer person2 = new Designer(
-                "Mike",
-                new GregorianCalendar(1988, Calendar.JULY, 13).getTime(),
-                "Blue"
-        );
-        Person person3 = new Person(
-                "Jilly",
-                new GregorianCalendar(1988, Calendar.FEBRUARY, 4).getTime()
-        );
+        Programmer pers = new Programmer("Matei", new GregorianCalendar(1988,
+                Calendar.JANUARY, 30).getTime(),
+                "C++");
+        Designer pers2 = new Designer("Luca", new GregorianCalendar(1988,
+                Calendar.JULY, 13).getTime(), "Green");
+        Person pers3 = new Person("Nicoleta", new GregorianCalendar(1988,
+                Calendar.FEBRUARY, 4).getTime());
+        Company company1 = new Company("Bitdefender");
+        Company company2 = new Company("Bytex");
+        Company company3 = new Company("OpenAI");
 
-        Company company1 = new Company("Google");
-        Company company2 = new Company("Microsoft");
-        Company company3 = new Company("Tesla");
+        pers.addRelationship(pers2, "University");
+        pers2.addRelationship(pers, "University");
+        pers2.addRelationship(pers3, "Internship");
+        pers3.addRelationship(pers2, "Internship");
 
-        person1.addRelationship(person2, "University");
-        person2.addRelationship(person1, "University");
-        person2.addRelationship(person3, "Internship");
-        person3.addRelationship(person2, "Internship");
-
-        company1.addEmployee(person1, "Developer");
-        company2.addEmployee(person2, "Project Manager");
-        company3.addEmployee(person3, "HR");
-
+        company1.addEmployee(pers, "Developer");
+        company2.addEmployee(pers2, "Manager");
+        company3.addEmployee(pers3, "Tester");
         List<Node> nodes = new ArrayList<>();
-        nodes.add(person1);
-        nodes.add(person2);
-        nodes.add(person3);
+        nodes.add(pers);
+        nodes.add(pers2);
+        nodes.add(pers3);
         nodes.add(company1);
         nodes.add(company2);
         nodes.add(company3);
@@ -52,9 +43,7 @@ public class Main {
         for (Node node : nodes) {
             network.addNode(node);
         }
-
        // network.printNodes();
-
         Set<String> articulationPoints = network.findArticulationPoints();
         System.out.println(articulationPoints);
     }
