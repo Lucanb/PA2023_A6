@@ -53,9 +53,9 @@ public class Main {
             network.addNode(node);
         }
 
-        network.printNodes();
+       // network.printNodes();
 
-       // Set<String> articulationPoints = network.findArticulationPoints();
-       // System.out.println(articulationPoints);
+        Set<String> articulationPoints = network.findArticulationPoints();
+        System.out.println(articulationPoints);
     }
 }
