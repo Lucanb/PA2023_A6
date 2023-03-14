@@ -7,18 +7,21 @@ import java.util.*;
 public class Network {
     List<Node> nodes = new ArrayList<>();
 
-    public void addNode(Node node){
+    public void addNode(Node node) {
+
         nodes.add(node);
     }
 
     public List<Node> getNodes() {
         return this.nodes;
+
     }
 
-    public void printNodes(){
+    public void printNodes() {
         this.nodes.sort(new Comparator<Node>() {
             @Override
             public int compare(Node o1, Node o2) {
+
                 return Integer.compare(o1.getImportance(), o2.getImportance());
             }
         });
