@@ -44,6 +44,7 @@ public class Main {
             network.addNode(node);
         }
        // network.printNodes();
+
         Set<String> articulationPoints = network.findArticulationPoints();
         System.out.println(articulationPoints);
     }

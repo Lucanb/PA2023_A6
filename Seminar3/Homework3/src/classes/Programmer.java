@@ -6,17 +6,17 @@ package classes;
 import java.util.Date;
 
 public class Programmer extends Person{
-    String favouriteProgrammingLanguage;
+    String programmingLanguage;
 
-    public Programmer(String name, Date birthday, String favouriteProgrammingLanguage) {
+    public Programmer(String name, Date birthday, String programmingLanguage) {
         super(name, birthday);
-        this.favouriteProgrammingLanguage = favouriteProgrammingLanguage;
+        this.programmingLanguage = programmingLanguage;
     }
 
     @Override
     public String toString() {
         return "Programmer{" +
-                "favouriteProgrammingLanguage='" + favouriteProgrammingLanguage + '\'' +
+                "programmingLanguage='" + programmingLanguage + '\'' +
                 ", relationships=" + relationships +
                 ", birthday=" + birthday +
                 ", name='" + name + '\'' +

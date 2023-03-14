@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af3c7b9-b785-428e-a130-65267e280022" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/Compulsory4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar4/Compulsory4/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Network$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Network$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Network.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework3/classes/Programmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework3/classes/Programmer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +35,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MzryqFC2kAzh2auQC9hkT5YDAX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,11 +67,14 @@
       <workItem from="1678781514242" duration="1401000" />
       <workItem from="1678784313140" duration="415000" />
       <workItem from="1678793208320" duration="138000" />
-      <workItem from="1678794501855" duration="594000" />
+      <workItem from="1678794501855" duration="1626000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
