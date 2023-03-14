@@ -4,13 +4,7 @@ public class Company implements Node, Comparable<Company> {
     public Company(String name) {
         this.name = name;
     }
-
-    @Override
-    public int compareTo(Person other) {
-        return 0;
-    }
-
-    @Override
+ @Override
     public int compareTo(Company obj)
  {
       return this.name.compareTo(obj.name);

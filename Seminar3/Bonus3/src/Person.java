@@ -4,19 +4,21 @@ import java.util.Map;
 public class Person implements Node, Comparable<Person> {
     public int code;
     private String name;
+    private Map<Node, String> relationships = new HashMap<Node, String>();
+
     public Person(String name) {
         this.name = name;
     }
+
+    public void addRelationShips(Node node, String value) {
+        relationships.put(node, value);
+    }
+
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Company obj) {
-        return 0;
     }
 
     @Override

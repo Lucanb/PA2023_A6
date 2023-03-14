@@ -2,9 +2,9 @@ import java.util.Collection;
 
 public interface Comparator<compareByValue> {
     int code=0;
-   // default void sort(int items,this::compareByValue){
+    default void sort(int items,this::compareByValue){
          ///
-   // }
+    }
     public default int compareTo(Object other)
     {
         if (other == null ) throw new NullPointerException();
