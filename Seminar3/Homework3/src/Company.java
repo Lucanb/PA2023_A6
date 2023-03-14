@@ -13,4 +13,9 @@ public class Company implements Node, Comparable<Company> {
     public String getName(){
         return name;
  }
+
+    @Override
+    public int compareTo(Person other) {
+        return 0;
+    }
 }

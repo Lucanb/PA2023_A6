@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="594cae38-52dd-4130-82de-3b678fd37880" name="Changes" comment="" />
+    <list default="true" id="594cae38-52dd-4130-82de-3b678fd37880" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory3/out/production/Compulsory3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory3/out/production/Compulsory3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory3/src/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory3/src/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory3/src/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory3/src/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory3/src/Comparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compulsory3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework3/src/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework3/src/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework3/src/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework3/src/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework3/src/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework3/src/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework3/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework3/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework3/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework3/src/Person.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2Mzs19AKCTM9oOiYxlhBL0RKK7T" />
   <component name="ProjectViewState">
@@ -20,6 +36,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -31,7 +51,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678781529505</updated>
+      <workItem from="1678781530917" duration="596000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

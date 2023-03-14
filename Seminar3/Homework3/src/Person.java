@@ -22,6 +22,11 @@ public class Person implements Node, Comparable<Person> {
     }
 
     @Override
+    public int compareTo(Company obj) {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return name;
     }
