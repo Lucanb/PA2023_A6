@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+import java.util.List;
 
 public class Network {
-private ArrayList<Node> nodes= new ArrayList<Node>();//List nu am cum aici ci doar array list
+private List<Node> nodes= new List<Node>();//List nu am cum aici ci doar array list
  public void addNode(Node node){
    //   node.add(node);
     }

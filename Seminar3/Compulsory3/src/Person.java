@@ -1,15 +1,19 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Person implements Node, Comparable<Person>{
+public class Person implements Node, Comparable<Person> {
     public int code;
     private String name;
-    private Map<Node,String> relationships= new HashMap<Node,String>();
+    private Map<Node, String> relationships = new HashMap<Node, String>();
 
-    public void addRelationShips(Node node,String value)
-    {
-        relationships.put(node,value);
+    public Person(String name) {
+        this.name = name;
     }
+
+    public void addRelationShips(Node node, String value) {
+        relationships.put(node, value);
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -17,6 +21,7 @@ public class Person implements Node, Comparable<Person>{
                 '}';
     }
 
+    @Override
     public String getName() {
         return name;
     }
@@ -25,9 +30,11 @@ public class Person implements Node, Comparable<Person>{
         this.name = name;
     }
 
+    @Override
     public int compareTo(Person other) {
         return this.name.compareTo(other.name);
         //what if the name is null?
     }
+
 
 }
