@@ -17,11 +17,17 @@ public class Main {
         //   studentsList.addAll(Arrays.asList(students)); //Sau asa;
         Collections.sort(studentsList, Comparator.comparing(Students::getName));
 
-        for (Students s : students) {
-            System.out.println(s.getName());
-        }
+       // for (Students s : students) {
+       //     System.out.println(s.getName());
+       // }
 
-        System.out.println(setProjects);
+    //    System.out.println(setProjects);
+
+
+        Problem problem = new Problem(12,1,13);
+        System.out.println(problem.toString());
+
+        problem.Greedy();
     }
 }
 

@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b494473-2676-49fc-8059-562a5d1e5569" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Bonus4/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Projects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Students.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,6 +60,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,6 +79,8 @@
       <updated>1679080170645</updated>
       <workItem from="1679080172328" duration="5184000" />
       <workItem from="1679261006992" duration="2302000" />
+      <workItem from="1679301368644" duration="4777000" />
+      <workItem from="1679306676131" duration="8278000" />
     </task>
     <servers />
   </component>
