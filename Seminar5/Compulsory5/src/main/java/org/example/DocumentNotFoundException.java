@@ -6,5 +6,6 @@ public class DocumentNotFoundException extends Exception {
     }
 
     public DocumentNotFoundException(String documentNotFoundInCatalog) {
+        super("Document not found");
     }
 }

@@ -5,13 +5,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
 
-public class CatalogOperations {
+public class CatalogUtil {
         public void saveCatalogToJsonFile(Catalog catalog, String filePath) throws IOException {
             ObjectMapper mapper = new ObjectMapper();
-            String a = catalog.toString();
+         //   String a = catalog.toString();
          //   mapper.writeValue(new File(filePath), a);
-         //  mapper.writeValue(new File(filePath),catalog);
-            System.out.println("Success !");
+            mapper.writeValue(new File(filePath),catalog);
+            System.out.println("Save Success!");
         }
 
         public Catalog loadCatalogFromJsonFile(String filePath) throws IOException {
@@ -22,4 +22,4 @@ public class CatalogOperations {
         ObjectMapper mapper = new ObjectMapper();
         return a.toString();
     }
-    }
+}

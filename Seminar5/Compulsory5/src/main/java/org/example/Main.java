@@ -18,10 +18,10 @@ public class Main {
 
         System.out.println(catalog);
 
-        CatalogOperations catalogOperationsOperations = new CatalogOperations();
-        catalogOperationsOperations.saveCatalogToJsonFile(catalog, "catalog.json");
+        CatalogUtil catalogOperationsOperations = new CatalogUtil();
+        catalogOperationsOperations.saveCatalogToJsonFile(catalog, "E:\\Personal\\School\\Anul II (2022-2023)\\Sem II\\Programare Avansata\\Seminar\\PA2023_A6\\Seminar5\\Compulsory5\\catalog.json");
 
-       // Catalog loadedCatalog = catalogOperationsOperations.loadCatalogFromJsonFile("catalog.json");
+       // Catalog loadedCatalog = catalogOperationsOperations.loadCatalogFromJsonFile("E:\Personal\School\Anul II (2022-2023)\Sem II\Programare Avansata\Seminar\PA2023_A6\Seminar5\Compulsory5\catalog.json");
 
         String loadedCatalog = catalogOperationsOperations.loadCatalogFromJsonFile(catalog);
         System.out.println(loadedCatalog);
