@@ -21,9 +21,10 @@ public class Main {
         CatalogUtil catalogOperationsOperations = new CatalogUtil();
         catalogOperationsOperations.saveCatalogToJsonFile(catalog, "E:\\Personal\\School\\Anul II (2022-2023)\\Sem II\\Programare Avansata\\Seminar\\PA2023_A6\\Seminar5\\Compulsory5\\catalog.json");
 
-       // Catalog loadedCatalog = catalogOperationsOperations.loadCatalogFromJsonFile("E:\Personal\School\Anul II (2022-2023)\Sem II\Programare Avansata\Seminar\PA2023_A6\Seminar5\Compulsory5\catalog.json");
+      //  Catalog loadedCatalog = catalogOperationsOperations.loadCatalogFromJsonFile("E:\\Personal\\School\\Anul II (2022-2023)\\Sem II\\Programare Avansata\\Seminar\\PA2023_A6\\Seminar5\\Compulsory5\\catalog.json");
 
         String loadedCatalog = catalogOperationsOperations.loadCatalogFromJsonFile(catalog);
+
         System.out.println(loadedCatalog);
 
         Document document3 = new Document("3", "Document 3", "path/to/document3");

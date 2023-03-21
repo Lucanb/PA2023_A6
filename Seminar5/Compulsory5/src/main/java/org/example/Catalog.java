@@ -1,7 +1,8 @@
 package org.example;
+import java.io.Serializable;
 import java.util.List;
 import java.util.ArrayList;
-public class Catalog {
+public class Catalog  implements Serializable {
     private List<Document> documents;
 
     public Catalog() {
