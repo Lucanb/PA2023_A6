@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8591a8-15ae-42a8-b546-8d8eb810485f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Bonus5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus5/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus5/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus5/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus5/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bonus5/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar4/Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar4/Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar4/Project/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar4/Project/Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar4/Project/src/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InvalidCatalogException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InvalidCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Listt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/catalog.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,9 @@
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="xrj9rbye" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -65,6 +62,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,6 +99,7 @@
       <workItem from="1679404686897" duration="733000" />
       <workItem from="1679650154942" duration="931000" />
       <workItem from="1679903848711" duration="234000" />
+      <workItem from="1679937508226" duration="2383000" />
     </task>
     <servers />
   </component>
@@ -107,5 +108,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
