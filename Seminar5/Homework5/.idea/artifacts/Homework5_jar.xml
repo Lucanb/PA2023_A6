@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Homework5:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Homework5_jar</output-path>
+    <root id="archive" name="Homework5.jar">
+      <element id="module-output" name="Homework5" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.5.1/jgrapht-core-1.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.13.2/jackson-databind-2.13.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/tika/tika-core/2.7.0/tika-core-2.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jheaps/jheaps/0.13/jheaps-0.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

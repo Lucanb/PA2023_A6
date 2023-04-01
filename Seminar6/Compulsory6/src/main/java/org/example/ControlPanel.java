@@ -3,20 +3,15 @@ package org.example;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
-import javafx.scene.image.PixelFormat;
-import javafx.scene.image.PixelWriter;
-import javafx.scene.image.WritableImage;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.stage.FileChooser;
 
 import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.util.Arrays;
 
 public class ControlPanel extends GridPane {
     private final MainFrame frame;

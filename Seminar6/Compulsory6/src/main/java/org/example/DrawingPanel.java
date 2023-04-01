@@ -49,7 +49,7 @@ public class DrawingPanel extends FlowPane {
 
         //Cele n puncte desenate
         for (int i = 0; i < n; i++) {
-            graphicsContext.fillOval(vec1.get(i), vec2.get(i), 0.2, 0.3);
+            this.graphicsContext.fillOval(vec1.get(i), vec2.get(i), 0.2, 0.3);
         }
 
         int i = 0;
@@ -64,7 +64,7 @@ public class DrawingPanel extends FlowPane {
                 continue;
             } else {
                 myGraph.put(point1, point2);
-                graphicsContext.strokeLine(point1.getKey(), point1.getValue(), point2.getKey(), point2.getValue());
+                this.graphicsContext.strokeLine(point1.getKey(), point1.getValue(), point2.getKey(), point2.getValue());
                 i++;
             }
 

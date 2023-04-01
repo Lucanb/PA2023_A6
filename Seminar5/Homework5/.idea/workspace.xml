@@ -1,143 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Homework5:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8591a8-15ae-42a8-b546-8d8eb810485f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/Seminar6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/libraries/Maven__org_openjfx_javafx_base_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/libraries/Maven__org_openjfx_javafx_base_win_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/libraries/Maven__org_openjfx_javafx_controls_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/libraries/Maven__org_openjfx_javafx_controls_win_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/libraries/Maven__org_openjfx_javafx_graphics_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/Compulsory6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/ConfigPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/ControlPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/DrawingPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/GraphicsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/RegularPolygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/ConfigPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/ControlPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/DrawingPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/GraphicsMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/MainFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/RegularPolygon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/decora_sse.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/fxplugins.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glass.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glib-lite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/gstreamer-lite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_font.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_iio.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxmedia.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxwebkit.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_d3d.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_sw.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/ucrtbase.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140_1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/mesa3d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/directshow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/glib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/gstreamer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/libffi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/icu_web.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxml2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxslt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/webkit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.base.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.controls.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.fxml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.graphics.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.media.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.swing.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.web.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/src.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Homework5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Homework5_jar/Homework5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/decora_sse.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/fxplugins.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/glib-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/gstreamer-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_font.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/javafx_iio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxmedia.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/jfxwebkit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/msvcp140_2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_d3d.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/prism_sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/bin/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.controls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.fxml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.graphics/mesa3d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/directshow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.media/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.swing/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/legal/javafx.web/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/resources/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar4/Bonus4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar4/Bonus4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar4/Bonus4/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar4/Bonus4/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Compulsory6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Compulsory6/Compulsory6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/DrawingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/src/main/java/org/example/DrawingPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/ControlPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Compulsory6/target/classes/org/example/ControlPanel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,19 +156,21 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Personal/School/Anul II (2022-2023)/Sem II/Programare Avansata/Seminar/PA2023_A6/Seminar6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Homework5.jar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Homework5" />
@@ -199,8 +184,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Homework5.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Homework5_jar/Homework5.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.Homework5.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -217,6 +207,8 @@
       <workItem from="1679650154942" duration="931000" />
       <workItem from="1679903848711" duration="234000" />
       <workItem from="1679937508226" duration="3293000" />
+      <workItem from="1680001272947" duration="1850000" />
+      <workItem from="1680004524013" duration="1151000" />
     </task>
     <servers />
   </component>
