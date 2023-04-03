@@ -1,0 +1,39 @@
+package org.example;
+
+public class Player {
+    private String playerName;
+    private Color color;
+
+   public void setPlayerName(String playerName)
+   {
+       this.playerName=playerName;
+   }
+
+   public String getPlayerName()
+   {
+      return this.playerName;
+   }
+
+   public void setColor(Color color)
+   {
+       this.color=color;
+   }
+
+   public Color getColor()
+   {
+       return this.color;
+   }
+
+    public Player()
+    {
+        setColor(Color.Yellow);
+        setPlayerName("Luca");
+    }
+
+    public Player(String playerName,Color color)
+    {
+        setPlayerName(playerName);
+        setColor(color);
+    }
+
+}
