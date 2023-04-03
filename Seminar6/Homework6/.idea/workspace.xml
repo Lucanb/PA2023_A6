@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d87000-f6ca-4604-8193-e2ceb285f500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SerializateLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyAplicationComands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyAplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyAplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SerializateLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SerializateLines.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Seminar7/Compulsory7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar7/Compulsory7/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -68,6 +74,40 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.MyAplication">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Homework6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MyAplication" />
+      <module name="Homework6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyAplication" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680498848232</updated>
-      <workItem from="1680498848247" duration="6148000" />
+      <workItem from="1680498848247" duration="16067000" />
     </task>
     <servers />
   </component>

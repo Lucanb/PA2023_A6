@@ -19,9 +19,9 @@ public class Player {
        this.color=color;
    }
 
-   public Color getColor()
+   public javafx.scene.paint.Color getColor()
    {
-       return this.color;
+       return color  == Color.RED ? javafx.scene.paint.Color.RED : javafx.scene.paint.Color.YELLOW;
    }
 
     public Player()

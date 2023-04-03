@@ -2,6 +2,6 @@ package org.example;
 
 public enum Color {
  //Blue,
-   Red,Yellow
+    RED, Yellow
  //,Green
 }

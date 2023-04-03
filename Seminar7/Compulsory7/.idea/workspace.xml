@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d21dd06-3c1e-4cf4-b74c-9463ab04d831" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/SerializateLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/MyAplicationComands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/resources/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/MyAplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/MyAplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/SerializateLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/SerializateLines.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/TheGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/TheGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -57,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680498978050</updated>
-      <workItem from="1680498979318" duration="610000" />
+      <workItem from="1680498979318" duration="759000" />
     </task>
     <servers />
   </component>
