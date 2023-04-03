@@ -21,7 +21,10 @@ public class TheGame {
     private Player secondPlayerMove;
     private Integer numberDots;
     private Double lineProbability;
-
+    private transient final Map<Line,Player>playersMove;
+    private transient List<Line> uncolouredLines;
+    private final Map<String,List<SerializateLines>>playersMoveSerialized;
+    private final List<SerializateLines>uncolouredLinesSerialized;
     public void setFirstPlayer(Player firstPlayer) {
         this.firstPlayer = firstPlayer;
     }
@@ -67,9 +70,79 @@ public class TheGame {
         return lineProbability;
     }
 
-    public TheGame() {
-
+    public Map<Line, Player> getPlayersMove() {
+        return playersMove;
     }
 
+    public Map<String, List<SerializateLines>> getPlayersMoveSerialized() {
+        return playersMoveSerialized;
+    }
+
+    public void setUncolouredLines(List<Line> uncolouredLines) {
+        this.uncolouredLines = uncolouredLines;
+    }
+
+    public List<Line> getUncolouredLines() {
+        return uncolouredLines;
+    }
+
+    public List<SerializateLines> getUncolouredLinesSerialized() {
+        return uncolouredLinesSerialized;
+    }
+
+    public void addMove(Line line,Player player)
+    {
+        if (firstPlayer.getPlayerName().equals(player.getPlayerName())) {
+            secondPlayerMove = secondPlayer;
+        } else if (secondPlayer.getPlayerName().equals(player.getPlayerName())) {
+            secondPlayerMove = firstPlayer;
+        }
+
+        this.playersMove.put(line, player);
+    }
+
+    public boolean moveValid(Line line)
+    {
+        return playersMove.containsKey(line);
+    }
+    public boolean isMoved(){
+        return (this.playersMove.size() == 0);
+    }
+    @Override
+    public String toString() {
+        return "TheGame{" +
+                "firstPlayer=" + firstPlayer +
+                ", secondPlayer=" + secondPlayer +
+                ", firstPlayerMove=" + firstPlayerMove +
+                ", secondPlayerMove=" + secondPlayerMove +
+                ", numberDots=" + numberDots +
+                ", lineProbability=" + lineProbability +
+                ", playersMove=" + playersMove +
+                ", uncolouredLines=" + uncolouredLines +
+                ", playersMoveSerialized=" + playersMoveSerialized +
+                ", uncolouredLinesSerialized=" + uncolouredLinesSerialized +
+                '}';
+    }
+
+    public TheGame()
+    {
+        this.playersMove = new HashMap<>();
+        this.playersMoveSerialized = new HashMap<>();
+        this.uncolouredLines = new ArrayList<>();
+        this.uncolouredLinesSerialized = new ArrayList<>();
+    }
+    public TheGame(Player playerFirst,Player playerSecond,Integer numberDots,Double lineProbability)
+    {
+        setFirstPlayer(playerFirst);
+        setSecondPlayer(playerSecond);
+        setNumberDots(numberDots);
+        setLineProbability(lineProbability);
+
+        // setFirstPlayerMove(playerFirst.getColor():playerFirst == Color.Red ? playerFirst:playerSecond);
+        // setSecondPlayerMove(playerFirst.getColor():playerSecond == Color.Yellow ? playerSecond:playerSecond);
+        firstPlayerMove = playerFirst.getColor() == javafx.scene.paint.Color.RED ? playerFirst : playerSecond;
+        secondPlayerMove = playerSecond.getColor() == Color.BLUE ? playerFirst : playerSecond;
+
+    }
 
 }
