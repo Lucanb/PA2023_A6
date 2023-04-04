@@ -1,4 +1,4 @@
-package org.example;
+package com.javalab.lab6.lab6java.model;
 
 import java.util.Objects;
 import com.google.gson.Gson;

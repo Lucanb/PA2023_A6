@@ -1,5 +1,6 @@
-package org.example;
-
+package com.javalab.lab6.lab6java;
+import com.javalab.lab6.lab6java.model.Player;
+import com.javalab.lab6.lab6java.model.TheGame;
 import javafx.application.Platform;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.EventHandler;
@@ -94,8 +95,8 @@ public class MyAplicationComands {
        String redPlayer =redPlayerName.getText().trim();
        String yellowPlayer = yellowPlayerName.getText().trim();
 
-       Player firstPlayer = new Player(redPlayer, org.example.Color.RED);
-       Player secondPlayer =new Player(yellowPlayer, org.example.Color.Yellow);
+       Player firstPlayer = new Player(redPlayer, Color.RED);
+       Player secondPlayer =new Player(yellowPlayer, Color.YELLOW);
 
        theGame = new TheGame(firstPlayer,secondPlayer,numberOfDotsSpinner.getValue(),lineProbabilityCombo.getValue());
        playerToMoveName.setText(theGame.getFirstPlayerMove().getPlayerName());

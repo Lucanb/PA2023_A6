@@ -1,4 +1,6 @@
-package org.example;
+package com.javalab.lab6.lab6java.model;
+
+import javafx.scene.paint.Color;
 
 public class Player {
     private String playerName;
@@ -26,7 +28,7 @@ public class Player {
 
     public Player()
     {
-        setColor(Color.Yellow);
+        setColor(Color.YELLOW);
         setPlayerName("Luca");
     }
 

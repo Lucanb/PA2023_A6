@@ -1,5 +1,4 @@
-package org.example;
-
+package com.javalab.lab6.lab6java;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -17,6 +16,7 @@ public class MyAplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Drawing");
         stage.setScene(scene);
+        stage.show();
     }
 
     public static void main(String[] args) {
