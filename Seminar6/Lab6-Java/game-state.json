@@ -1,0 +1,59 @@
+{
+  "playerOne": {
+    "playerName": "Red Player",
+    "playerColor": "RED"
+  },
+  "playerTwo": {
+    "playerName": "Blue Player",
+    "playerColor": "BLUE"
+  },
+  "nextPlayerToMove": {
+    "playerName": "Blue Player",
+    "playerColor": "BLUE"
+  },
+  "firstPlayerToMove": {
+    "playerName": "Red Player",
+    "playerColor": "RED"
+  },
+  "numberOfDots": 6,
+  "lineProbability": 0.35,
+  "playerMovesSerialized": {},
+  "greyLinesSerialized": [
+    {
+      "startX": 760.0,
+      "startY": 364.11764705882354,
+      "endX": 385.00000000000006,
+      "endY": 580.6239980049332
+    },
+    {
+      "startX": 635.0,
+      "startY": 580.6239980049331,
+      "endX": 260.0,
+      "endY": 364.1176470588236
+    },
+    {
+      "startX": 635.0,
+      "startY": 580.6239980049331,
+      "endX": 384.9999999999999,
+      "endY": 147.61129611271394
+    },
+    {
+      "startX": 635.0,
+      "startY": 580.6239980049331,
+      "endX": 635.0,
+      "endY": 147.6112961127139
+    },
+    {
+      "startX": 385.00000000000006,
+      "startY": 580.6239980049332,
+      "endX": 260.0,
+      "endY": 364.1176470588236
+    },
+    {
+      "startX": 384.9999999999999,
+      "startY": 147.61129611271394,
+      "endX": 635.0,
+      "endY": 147.6112961127139
+    }
+  ]
+}

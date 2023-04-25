@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d21dd06-3c1e-4cf4-b74c-9463ab04d831" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/MyAplicationComands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/MyAplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/MyAplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/SerializateLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/SerializateLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/TheGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar6/Homework6/src/main/java/org/example/TheGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Seminar5/Bonus5/.idea/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/src/main/java/org/example/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/src/main/java/org/example/Exploration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/src/main/java/org/example/ExplorationMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/src/main/java/org/example/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/src/main/java/org/example/SharedMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/src/main/java/org/example/TimeKeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/src/main/java/org/example/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar5/Bonus5/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar5/Bonus5/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar5/Bonus5/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar5/Bonus5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar5/Bonus5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar5/Bonus5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar5/Bonus5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar5/Bonus5/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +41,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2Nu16HHFpc2Owe8kLdCFpYBCp7p" />
@@ -48,13 +57,37 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Luca/PA/Seminar7/Compulsory7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Exploration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Exploration" />
+      <module name="Compulsory7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exploration" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,10 +97,22 @@
       <option name="presentableId" value="Default" />
       <updated>1680498978050</updated>
       <workItem from="1680498979318" duration="759000" />
+      <workItem from="1680600046521" duration="374000" />
+      <workItem from="1680607073474" duration="1497000" />
+      <workItem from="1680609572827" duration="75000" />
+      <workItem from="1680633433523" duration="19000" />
+      <workItem from="1681723687021" duration="860000" />
+      <workItem from="1681726804459" duration="8262000" />
+      <workItem from="1682100032614" duration="253000" />
+      <workItem from="1682323072724" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

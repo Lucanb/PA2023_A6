@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Catalog</title>
+</head>
+<body>
+<h1>My Catalog</h1>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Location</th>
+        <th>Tags</th>
+    </tr>
+    #foreach ($doc in $catalog.getDocuments())
+        <tr>
+            <td>$doc.id</td>
+            <td>$doc.location</td>
+            <td>
+                #foreach($key in $doc.tags.keySet())
+                    $key: $doc.tags.get($key)<br/>
+                #end
+            </td>
+        </tr>
+    #end
+</table>
+</body>
+</html>
