@@ -35,7 +35,6 @@ public class Exploration {
             new Thread(keyboardCommands).start();
         }
         new TimeKeeper(200).start();
-
     }
 
     public void addRobot(Robot toAdd) {
