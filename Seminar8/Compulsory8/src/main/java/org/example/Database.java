@@ -22,7 +22,7 @@ public class Database {
 
     private static void createConnection() {
         try {
-            Connection Connection = DriverManager.getConnection(URL, USER, PASSWORD); ///
+            Connection Connection = DriverManager.getConnection(URL, USER, PASSWORD);
 
             connection.setAutoCommit(false);
         } catch (SQLException e) {
