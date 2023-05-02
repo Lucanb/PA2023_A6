@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        Graph graph = new GraphBuilder()
+        Graph graph = new AdjacencyListGraph() {
+        }
                 .addVertex()
                 .addVertex()
                 .addVertex()

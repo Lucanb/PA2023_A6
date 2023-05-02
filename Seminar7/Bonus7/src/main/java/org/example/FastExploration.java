@@ -15,7 +15,7 @@ import org.graph4j.Graph;
 import org.graph4j.GraphBuilder;
 
 public class FastExploration {
-    private Graph graph;
+    private AdjacencyListGraph graph;
     private ConcurrentMap<Vertex, Set<Integer>> visited;
 
     public FastExploration(GraphBuilder builder) {

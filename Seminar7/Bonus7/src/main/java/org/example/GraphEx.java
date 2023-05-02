@@ -4,7 +4,7 @@ import org.graph4j.*;
 
 public class GraphEx {
     public static void main(String[] args) {
-            Graph graph = GraphBuilder.create().build();
+            Graph graph = AdjacencyListGraph.create().build();
 
 
             Vertex v1 = graph.addVertex();

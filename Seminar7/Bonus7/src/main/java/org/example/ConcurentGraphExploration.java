@@ -5,11 +5,11 @@ import java.util.concurrent.*;
 import org.graph4j.*;
 
 public class ConcurrentGraphExploration {
-    private Graph graph;
+    private AdjacencyListGraph graph;
     private Set<Vertex> visited;
 
-    public ConcurrentGraphExploration(Graph graph) {
-        this.graph = graph;
+    public ConcurrentGraphExploration(AdjacencyListGraph graph) {
+        this.graph =  graph;
         this.visited = new HashSet<>();
     }
 
