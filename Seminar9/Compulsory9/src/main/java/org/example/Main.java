@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("Artist");
         ArtistRepository artistRepository = new ArtistRepository(emf);
-//        Artist artist=new Artist("Luci");
-//        artistRepository.create(artist);
+        Artist artist=new Artist("Luca");
+        artistRepository.create(artist);
         Artist test = artistRepository.findById(1L);
         System.out.println(test);
 
