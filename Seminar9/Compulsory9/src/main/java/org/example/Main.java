@@ -1,20 +1,25 @@
 package org.example;
 
-import org.example.entity.Artist;
-import org.example.repository.ArtistRepository;
+import org.example.entity.Artists;
+import  org.example.entity.EntityManagerFactory;
 
-import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("Artist");
-        ArtistRepository artistRepository = new ArtistRepository(emf);
-        Artist artist=new Artist("Luca");
-        artistRepository.create(artist);
-        Artist test = artistRepository.findById(1L);
-        System.out.println(test);
+        EntityManagerFactory emf = (EntityManagerFactory) Persistence.createEntityManagerFactory("ExamplePU");
+        EntityManager em = emf.createEntityManager();
 
-        System.out.println(artistRepository.findByName("uc"));
+        em.getTransaction().begin();
+        Artists artist = new Artists("Beatles");
+        em.persist(artist);
+
+        Artists a = (Artists) em.createQuery(
+                        "select e from Artists e where e.name='Beatles'")
+                .getSingleResult();
+        a.setName("The Beatles");
+        em.getTransaction().commit();
+        em.close();
     }
 }

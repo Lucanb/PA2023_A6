@@ -1,32 +1,21 @@
 package org.example.repository;
 
 import org.example.PersistenceUnitManager;
-import org.example.entity.Artist;
-
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.TypedQuery;
+import org.example.entity.Artists;
+import org.example.entity.EntityManagerFactory;
+import java.util.ArrayList;
 import java.util.List;
 
-public class ArtistRepository {
-    private final EntityManager entityManager;
-
+public class ArtistRepository extends DataRepository<Artists,Integer>{
+    private final EntityManagerFactory entityManager;
     public ArtistRepository(EntityManagerFactory emf){
-        entityManager = PersistenceUnitManager.getInstance().getEntityManagerFactory().createEntityManager();
+        entityManager = (EntityManagerFactory) PersistenceUnitManager.getInstance().getEntityManagerFactory().createEntityManager();
     }
 
-    public void create(Artist artist) {
-        entityManager.getTransaction().begin();
-        entityManager.persist(artist);
-        entityManager.getTransaction().commit();
-    }
-
-    public Artist findById(Long id){
-        return entityManager.find(Artist.class, id);
-    }
-    public List<Artist> findByName(String pattern) {
-        TypedQuery<Artist> query = entityManager.createNamedQuery("Artist.findByName", Artist.class);
-        query.setParameter("name","%" + pattern + "%");
-        return query.getResultList();
+    public List<Artists> findByName(String name) {
+        return entityManager.createNamedQuery("Album.findByName")
+               .setParameter("name", name)
+                .getResultList();
+        return new ArrayList<>();
     }
 }
