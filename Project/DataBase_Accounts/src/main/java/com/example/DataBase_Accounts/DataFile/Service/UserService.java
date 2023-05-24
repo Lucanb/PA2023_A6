@@ -2,6 +2,7 @@ package com.example.DataBase_Accounts.DataFile.Service;
 
 import com.example.DataBase_Accounts.DataFile.Auth.entities.User;
 import com.example.DataBase_Accounts.DataFile.Repository.UserRepository;
+import jakarta.xml.bind.SchemaOutputResolver;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -25,6 +26,7 @@ public User registerUser(String username, String firstName, String lastName, Str
         System.out.println("Camere nu sunt completate");
         return null;
     }
+
     if(userRepository.findByUsername(username).isPresent()){
         System.out.println("Username deja existent");
         return null;
@@ -40,6 +42,7 @@ public User registerUser(String username, String firstName, String lastName, Str
         user.setAddress(address);
         //user.setRole(Role); aici vezi rolul:
        // user.setRole(Role.rolesPermissions.GUEST);
+        System.out.println(user);
         return userRepository.save(user);
    }
    public User authenticate(String username, String password){

@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bf2a8a6-4cf2-41f8-8a22-8a71e1b1272c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnalizatorClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/DataBase_Accounts/src/main/java/com/example/DataBase_Accounts/DataFile/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/DataBase_Accounts/src/main/java/com/example/DataBase_Accounts/DataFile/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/DataBase_Accounts/src/main/java/com/example/DataBase_Accounts/DataFile/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/DataBase_Accounts/src/main/java/com/example/DataBase_Accounts/DataFile/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/DataBase_Accounts/src/main/java/com/example/DataBase_Accounts/DataFile/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/DataBase_Accounts/src/main/java/com/example/DataBase_Accounts/DataFile/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seminar11/Homework11/src/main/java/com/example/homework/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seminar11/Homework11/src/main/java/com/example/homework/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AnalizatorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AnalizatorClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -47,15 +51,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Luca/PA/Project/DataBase_Accounts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "spring.configuration.checksum": "7bcf24a97885e70d387c137c9fa006ef",
+    "ts.external.directory.path": "D:\\Luca\\Installed Aplications\\IntelliJ IDEA 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.example.ClassAnalyzer">
+  <component name="RunManager" selected="Application.AnalizatorClass">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -82,6 +93,19 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalizatorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AnalizatorClass" />
+      <module name="Compulsory12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnalizatorClass" />
         <item itemvalue="Application.org.example.ClassAnalyzer" />
         <item itemvalue="Application.ClassAnalyzer" />
         <item itemvalue="Application.Main" />
@@ -135,7 +160,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684837096072</updated>
-      <workItem from="1684837097114" duration="505000" />
+      <workItem from="1684837097114" duration="619000" />
+      <workItem from="1684839840150" duration="2139000" />
+      <workItem from="1684848226051" duration="83000" />
+      <workItem from="1684906735312" duration="1327000" />
     </task>
     <servers />
   </component>
@@ -144,5 +172,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

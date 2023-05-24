@@ -16,7 +16,7 @@ public class Application {
         newPlayer.setName("Lucky");
         Player addedPlayer = restTemplate.postForObject("http://localhost:8090/api/players", newPlayer, Player.class);
         System.out.println("Added Player: " + addedPlayer);
-
+/*
         // Update player's name
         Long playerId = 1L;
         String updatedName = "Buky";
@@ -27,7 +27,6 @@ public class Application {
         // Delete a player
         Long playerIdToDelete = 2L;
         restTemplate.delete("http://localhost:8090/api/players/" + playerIdToDelete);
-
+*/
     }
-
 }

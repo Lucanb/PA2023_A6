@@ -41,8 +41,8 @@ public class UserController {
     @PostMapping("/register")
     public String register(@ModelAttribute User user) {
         System.out.println(user);
-        User registeredUser = userService.registerUser(user.getUsername(), user.getPassword(), user.getFirstName(), user.getLastName(), user.getAddress()
-                , user.getEmail(), user.getCnp(), user.getPhone());
+        User registeredUser = userService.registerUser(user.getUsername(), user.getFirstName(), user.getLastName(), user.getPassword(),
+                user.getEmail(), user.getCnp(), user.getPhone(), user.getAddress());
         return registeredUser == null ? "error_page" : "redirect:/login";
     }
 
@@ -58,6 +58,12 @@ public class UserController {
        {
           return "redirect:/error_page";
        }
+    }
+
+    @GetMapping("/User_Page")
+    public String getUser_Page()
+    {
+        return "User_Page";
     }
 
 }
