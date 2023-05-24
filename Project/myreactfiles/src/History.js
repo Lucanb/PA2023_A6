@@ -2,7 +2,7 @@ import './App.css';
 import DataTable from "react-data-table-component";
 import {useState,useEffect} from 'react';
 
-function App() {
+function History() {
     const[data,setData]=useState([])
     const[loading,setLoading] = useState(false)
     const[perPage,setPerPage] = useState(10)
@@ -43,4 +43,4 @@ function App() {
       </div>
    )
 }
-export default App;
+export default History;

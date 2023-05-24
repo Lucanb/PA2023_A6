@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from "./App";
+import History from "./History";
 
-ReactDOM.render(<App/>,document.getElementById("root"));
+ReactDOM.render(<History/>,document.getElementById("root"));
 
 
