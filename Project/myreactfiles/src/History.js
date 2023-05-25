@@ -1,7 +1,8 @@
 import './App.css';
 import DataTable from "react-data-table-component";
 import {useState,useEffect} from 'react';
-
+const dbConfig =require('dbConfig');
+const oracledb= require('oracledb');
 function History() {
     const[data,setData]=useState([])
     const[loading,setLoading] = useState(false)
@@ -11,23 +12,33 @@ function History() {
         fetchData()
     },[])
     async function fetchData(){
-        setLoading(true)
-        const response = await fetch("https://jsonplaceholder.typicode.com/todos")
-        const users = await response.json()
-        setData(users)
-        setLoading(false)
+         setLoading(true)
+        // const response = await fetch("https://jsonplaceholder.typicode.com/todos")
+        // const users = await response.json()
+        // setData(users)
+        // setLoading(false)
+        try{
+            const connection = await oracledb.getConnection(dbConfig);
+            const result = await connection.execute("select * from users"); //History trb
+            const rows = await result.rows  //.json();
+            setData(rows)
+            await connection.close();
+        }catch(e){
+            console.log('Error fetching the data:',e);
+        }
+        setLoading(false);
     }
     const columns=[
         {
-            name: "Name",
-            selector: (row) => row.userId,
+            name: "USERNAME",
+            selector: (row) => row.USERNAME,
         },
         {
-            name: "Username",
-            selector: (row) => row.title,
+            name: "EMAIL",
+            selector: (row) => row.EMAIL,
         },
         {
-            name: "email",
+            name: "DONE",
             selector: (row) => row.completed ? "completed" : "not completed",
         },
     ]
