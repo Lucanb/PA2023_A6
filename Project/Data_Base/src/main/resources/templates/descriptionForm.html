@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+  <link rel="stylesheet" href="css/ticketReq.css">
+</head>
+
+<body>
+<section>
+  <div class="container">
+<!--    <form action="https://formspree.io/mbjzbwaj" method="POST" id="my-form">-->
+   <form>
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="username" id="username" name="username">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+</body>
+</html>
